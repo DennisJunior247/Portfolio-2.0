@@ -23,7 +23,7 @@ const Menu = ({ about }) => {
               user interfaces and backend apis.
               <br /> I spend more of my time writing backend apis with
               nodejs/golang , i also work on frontend react/reactnative too if
-              need aside coding i enjoy watching movies,playing video games and
+              needed, aside coding i enjoy watching movies,playing video games and
               hanging out with friends.
             </p>
             <Flex
@@ -34,7 +34,7 @@ const Menu = ({ about }) => {
               <ButtonStyled text="Download CV" className="button-container">
                 <a
                   target="blank"
-                  href="https://drive.google.com/file/d/1ipO4D9YRltNSgZQhTTst3Z6ktUzgEBGj/view?usp=sharing"
+                  href="https://docs.google.com/document/d/1x6FlTbMcjCUkx3te5bpsNluSY7jU1EzKBxlR6UPcI1g/edit?usp=sharing"
                   className="button"
                 >
                   Download CV

@@ -98,7 +98,7 @@ const Menu = ({ about, services, skills, experience, contact }) => {
               <ButtonStyled text="Download CV" className="button-container">
                 <a
                   target="blank"
-                  href="https://drive.google.com/file/d/1ipO4D9YRltNSgZQhTTst3Z6ktUzgEBGj/view?usp=sharing"
+                  href="https://docs.google.com/document/d/1x6FlTbMcjCUkx3te5bpsNluSY7jU1EzKBxlR6UPcI1g/edit?usp=sharing"
                   className="button"
                 >
                   Resume
