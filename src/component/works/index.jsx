@@ -13,7 +13,7 @@ import materialUi from "../../assets/images/materialUi.png";
 const Works = () => {
   const collection = [
     {
-      img: require("../../assets/images/experience/videochat.png"),
+      img: require("../../assets/images/videochat.png"),
       expKey: 12,
       href: "https://video-chatapp-m1e8jwb5f-dennisjunior247.vercel.app/",
       name: "Video-Chat",
