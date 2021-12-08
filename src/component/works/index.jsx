@@ -43,14 +43,11 @@ const Works = () => {
       detail: "Platform for keeping track of stock.",
     },
     {
-      img: require("../../assets/images/experience/EmBED(1).png"),
+      img: require("../../assets/images/experience/videochat.png"),
       expKey: 12,
-      href: "https://embed.ng/",
-      name: "EmBED",
+      href: "https://video-chatapp-m1e8jwb5f-dennisjunior247.vercel.app/",
+      name: "Video-Chat",
       stacks: [
-        <Flex className="pictureFrame" width="50px" height="50px">
-          <img src={chart} alt="chart" />
-        </Flex>,
         <Flex className="pictureFrame" width="50px" height="50px">
           <img src={js} alt="js" />
         </Flex>,
@@ -63,14 +60,8 @@ const Works = () => {
         <Flex className="pictureFrame" width="50px" height="50px">
           <img src={node} alt="node" />
         </Flex>,
-        <Flex className="pictureFrame" width="50px" height="50px">
-          <img src={mongodb} alt="mongodb" />
-        </Flex>,
-        <Flex className="pictureFrame" width="50px" height="50px">
-          <img src={next} alt="next" />
-        </Flex>,
       ],
-      detail: "Platform for Homeschooling, providing rich content.",
+      detail: "A video call app with react and sockect.io",
     },
     {
       img: require("../../assets/images/experience/suregift.png"),

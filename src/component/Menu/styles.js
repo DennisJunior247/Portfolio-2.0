@@ -26,8 +26,10 @@ export const MenuStyle = styled.div`
     width: 100%;
     display: flex;
     @media (max-width: 800px) {
-      transition: ${({ showMenuDropdown }) => !showMenuDropdown && " .2s linear .2s"};
-      background: ${({ showMenuDropdown }) => showMenuDropdown && "  #040404f2"};
+      transition: ${({ showMenuDropdown }) =>
+        !showMenuDropdown && " .2s linear .2s"};
+      background: ${({ showMenuDropdown }) =>
+        showMenuDropdown && "  #040404f2"};
     }
   }
   header menu {
@@ -124,7 +126,7 @@ export const MenuStyle = styled.div`
     }
 
     100% {
-      /* height: 450px; */
+      height: 450px;
       padding-top: 15px;
       padding-bottom: 15px;
     }
@@ -152,7 +154,7 @@ export const MenuStyle = styled.div`
       border-bottom: 1px solid #fbc56d;
       overflow: hidden;
       display: ${(props) =>
-        props.showMenuDropdown === undefined ? " none" : "grid"};
+        props.showMenuDropdown === undefined ? "none" : "grid"};
       animation: ${(props) =>
         props.showMenuDropdown
           ? "rollDown .3s  linear forwards "
