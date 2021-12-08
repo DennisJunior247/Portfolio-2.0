@@ -13,36 +13,6 @@ import materialUi from "../../assets/images/materialUi.png";
 const Works = () => {
   const collection = [
     {
-      img: require("../../assets/images/experience/myinventhub.png"),
-      expKey: 1,
-      href: "https://myinventhub.com/",
-      name: "My Invent Hub",
-      stacks: [
-        <Flex className="pictureFrame" width="50px" height="50px">
-          <img src={chart} alt="chart" />
-        </Flex>,
-        <Flex className="pictureFrame" width="50px" height="50px">
-          <img src={js} alt="js" />
-        </Flex>,
-        <Flex className="pictureFrame" width="50px" height="50px">
-          <img src={react} alt="react" />
-        </Flex>,
-        <Flex className="pictureFrame" width="50px" height="50px">
-          <img src={styledComponent} alt="styledComponent" />
-        </Flex>,
-        <Flex className="pictureFrame" width="50px" height="50px">
-          <img src={node} alt="node" />
-        </Flex>,
-        <Flex className="pictureFrame" width="50px" height="50px">
-          <img src={mongodb} alt="mongodb" />
-        </Flex>,
-        <Flex className="pictureFrame" width="50px" height="50px">
-          <img src={next} alt="next" />
-        </Flex>,
-      ],
-      detail: "Platform for keeping track of stock.",
-    },
-    {
       img: require("../../assets/images/experience/videochat.png"),
       expKey: 12,
       href: "https://video-chatapp-m1e8jwb5f-dennisjunior247.vercel.app/",
